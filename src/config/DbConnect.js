@@ -2,7 +2,7 @@ import mongoose from "mongoose"
 
 export const dbConnect=()=>{
     try{
-        mongoose.connect("mongodb://127.0.0.1:27017/role-test");
+        mongoose.connect("mongodb+srv://parmanandkumawatvhits:abhipri94@cluster0.yhaiv2p.mongodb.net/");
         console.log("connect db")
 
     }catch(err){
