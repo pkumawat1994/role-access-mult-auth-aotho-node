@@ -1,6 +1,6 @@
 baseURL-http://localhost/3040/api/user
 end point- 
-1) add User url ---- "/add-user" parameter - (profilePic:"imageXYZetc",name:"abcd", email:"abcd@gmail.com", mobile:"9958744547", password:"admin@123" ) ;
+1) add User url ---- "/add-user" parameter (formData) - (profilePic:"imageXYZetc",name:"abcd", email:"abcd@gmail.com", mobile:"9958744547", password:"admin@123" ) ;
 2) login page  url----/login-user parameter- (email,password)
 3) get All User  page url----/get-user parameter - (token in header when got login time giving me as a response)
 4) delete User page url----/delete-user/:id parameter - (token in header when got login time giving me as a response , id in URL )
