@@ -38,7 +38,7 @@ userRoutes.post("/login-user", loginUser);
 userRoutes.get("/get-user", getUser);
 userRoutes.post("/delete-user/:id", Auth, restrict("user"), deleteUser); //permision for access  this api token dekh lega ye user admin he ya user he
 userRoutes.post("/update-user/:id", Auth, updateUser);
-userRoutes.get("/get-single-user/:id", getSingleUser);
+userRoutes.get("/get-single-user/:id",Auth, getSingleUser);
 userRoutes.post("/forgot-password", forgotPassword);
 userRoutes.post("/reset-password", resetPassword);
 
