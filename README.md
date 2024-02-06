@@ -8,3 +8,6 @@ end point-
 6) get Single User url ----/get-single-user/:id parameter - (token in header .id in url )
 7) forgot Password url ----/forgot-password parameter - (email :"a@gmail.com)in body
 8) reset Password url ----/reset-password parameter - (tokenForReset:"give Token when giving response forgot password,newPassword:"123456789") in body data ;
+.env file -------
+PORT=3040
+JWT_SECREAT=abcdef
